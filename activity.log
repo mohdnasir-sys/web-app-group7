@@ -1,0 +1,235 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 534-299-947
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:41:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:41:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:43:54] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:44:43] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:44:43] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:44:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:44:50] "GET /login HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Failed Login Attempt
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:44:57] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:45:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:45:03] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:46:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:46:54] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:46:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:46:56] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:47:05] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:47:05] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:47:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:47:12] "GET /login HTTP/1.1" 200 -
+INFO:root:User: 123, Action: Failed Login Attempt
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:47:17] "POST /login HTTP/1.1" 200 -
+INFO:root:User: a, Action: Failed Login Attempt
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:47:28] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:47:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:47:30] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:47:34] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:47:34] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:49:19] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:49:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:49:26] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:49:27] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:49:49] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:49:49] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:50:53] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:50:54] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:50:55] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:50:55] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:50:56] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:50:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:51:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:51:01] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:51:07] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:51:08] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:51:44] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:51:58] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:51:58] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:52:01] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:52:37] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:52:37] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:52:40] "GET /register HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Registered Successfully
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:52:59] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:52:59] "GET /login HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Login Successful
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:53:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:53:20] "GET /dashboard HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Logged Out
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:53:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:53:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:55:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:55:13] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:55:15] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:55:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:55:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:55:21] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:55:36] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:55:36] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:55:41] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:55:55] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:55:55] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:56:07] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:56:07] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:56:10] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:56:24] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:56:24] "GET /register HTTP/1.1" 200 -
+INFO:root:User: asd, Action: Registered Successfully
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:56:44] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:56:44] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:56:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:56:53] "GET /login HTTP/1.1" 200 -
+INFO:root:User: asd, Action: Failed Login Attempt
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:57:09] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:57:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:57:13] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:57:18] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:57:35] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:57:35] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:57:39] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:58:00] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:58:00] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:58:09] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:58:12] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:58:13] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:58:34] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:58:34] "GET /register HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Registered Successfully
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:59:01] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:59:01] "GET /login HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Failed Login Attempt
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:59:17] "POST /login HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Login Successful
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:59:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:59:41] "GET /dashboard HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Logged Out
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:59:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:59:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 10:59:45] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:00:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:02:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:02:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:02:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:02:59] "GET /register HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Registered Successfully
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:03:22] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:03:22] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:03:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:03:32] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:03:48] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:03:49] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:03:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:03:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:03:52] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:03:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:04:03] "GET /register HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Registered Successfully
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:04:17] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:04:17] "GET /login HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Failed Login Attempt
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:04:43] "POST /login HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Login Successful
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:04:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:04:59] "GET /dashboard HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Logged Out
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:05:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:05:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:05:03] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:06:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:06:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:06:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:06:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:06:34] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:06:50] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:06:50] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:08:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:08:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:08:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:08:38] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:08:40] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:08:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:08:42] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:08:53] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:08:53] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:09:12] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:09:12] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:09:16] "GET /register HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Registered Successfully
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:09:33] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:09:33] "GET /login HTTP/1.1" 200 -
+INFO:root:User: as, Action: Failed Login Attempt
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:09:51] "POST /login HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Login Successful
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:10:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:10:08] "GET /dashboard HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Logged Out
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:10:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:10:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:10:12] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:10:30] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:10:30] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Xampp\\htdocs\\Assignment2\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 534-299-947
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:13:15] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:13:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:13:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:13:17] "GET /register HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Registered Successfully
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:13:39] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:13:39] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:13:46] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Xampp\\htdocs\\Assignment2\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 534-299-947
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:15:27] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:15:27] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:15:33] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:15:33] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:15:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:15:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:17:01] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:17:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:17:07] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:17:08] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:17:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:17:11] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:17:15] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:17:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:17:17] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:17:47] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:17:47] "GET /register HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Registered Successfully
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:18:01] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:18:01] "GET /login HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Failed Login Attempt
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:18:12] "POST /login HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Login Successful
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:18:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:18:22] "GET /dashboard HTTP/1.1" 200 -
+INFO:root:User: Nasir, Action: Logged Out
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:18:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2025 11:18:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Xampp\\htdocs\\Assignment2\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 534-299-947
+INFO:werkzeug: * Detected change in 'C:\\Xampp\\htdocs\\Assignment2\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
